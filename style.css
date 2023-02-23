@@ -1,0 +1,76 @@
+body{
+    background-color: beige;
+    margin: 0;
+    
+}
+
+.container{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    display: flex;
+   font-family: 'Montserrat' ;
+   font-weight: 600;
+  background-color: white;
+  border-radius: 20px ;
+}
+.sidebar{
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px 0 0 20px;
+   
+    padding:15px;
+    width: 300px;
+   
+}
+.info{
+    padding: 20px;
+}
+ul{
+    padding-left: 20px;
+    list-style: none;
+}
+.contacts{
+    list-style: none;
+}
+.contact-link{
+    color: white;
+    text-decoration: none;
+}
+.contact-link:hover{
+    color: yellow;
+}
+.content{
+    display: flex; 
+    flex-direction: column;
+    padding: 20px;
+}
+.skills{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.listSkills{
+    padding-left: 20px;
+    list-style: circle;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+}
+.points{
+    font-weight: 900;
+}
+.list{
+    border-bottom: 1px solid rgb(124, 110, 110);
+}
+.aboutMe{
+    font-weight: 500;
+}
+.image{
+    border-radius: 20px;
+}
